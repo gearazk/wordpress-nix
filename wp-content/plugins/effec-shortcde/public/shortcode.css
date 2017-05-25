@@ -1,0 +1,74 @@
+.eff_header{
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: "Code Pro LC",Arial,sans-serif;
+    font-size: 3.2em;
+    color: #1d1d1d; !important;
+    text-transform: uppercase ;
+}
+.text-section{
+    text-align: left;
+}
+.eff_title{
+    color: #c44;
+    font-family: "Code Pro LC",Arial,sans-serif;
+    font-size: 1.25em;
+    text-transform: uppercase;
+}
+.eff_btn_link{
+    margin-top: 10px;
+    min-height: 38px;
+    width: 241px;
+    /*padding-left: 0;*/
+    /*padding-right: 0;*/
+    text-align: center;
+    display: inline-block;
+    padding: 12px 43px;
+    text-decoration: none;
+    background-color: #c44;
+    color: #fff;
+}
+.eff_btn_link:hover{
+    color: #fff;
+    background-color: #f84343;
+
+}
+.text-section p{
+    margin: auto !important;
+}
+.eff_icon_break{
+    display: inline-block;
+    border-bottom-color: #bbb;
+    position: relative;
+}
+.eff_icon_wrapper{
+    display: inline-block;
+    padding: 0 12px;
+    background: #fff;
+}
+.eff_line{
+    border-top: 1px solid #bbb;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+    margin-top: -10px;
+}
+.delimiter{
+    text-align: center;
+}
+.title_full:after,.title_full:before{
+    content: '';
+    display: inline-block;
+    border-top: 2px solid #d41624;
+    border-bottom: 2px solid #d41624;
+    position: absolute;
+    padding: 1px;
+    margin: inherit;
+    height: 6px;
+    left: 0;
+    width: 29.2%;
+}
+.title_full:after{
+    right: 0;
+    left: auto;
+}
